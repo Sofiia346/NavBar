@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" class="navbar-brand mb-0 h1">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+  <main>
+    <section id="home" class="main">
+        <div>
+          <h1>Hi I'm Sofia</h1>
+          <p>Front End student</p>
+        </div>
+      <div>
+        <div id="carouselExampleIndicators" class="carousel slide my-slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://media.istockphoto.com/id/1134444079/photo/asian-woman-studying-at-home-using-laptop.jpg?s=612x612&w=0&k=20&c=FPCf99YI6z9pmmrCmYFPJcxp2D2wE4BegGzRxEWM5w4=" class="d-block" width="612px" height="408px" alt="photo1">
+            </div>
+            <div class="carousel-item">
+              <img src="https://media.istockphoto.com/id/1335893062/photo/asian-girl-using-laptop-computer-at-home-morning.jpg?s=170667a&w=0&k=20&c=lHJSRByzL7BsmLKJkNzQqh4C1av5awnkAo0ar3uYID4=" class="d-block" width="612px" height="408px" alt="photo2">
+            </div>
+            <div class="carousel-item">
+              <img src="https://media.istockphoto.com/id/1182745546/photo/hispanic-female-studying-on-laptop.jpg?b=1&s=170667a&w=0&k=20&c=dlZv3ZlGz1t_YxjMnciPLhWdEzxULIDwVFjhhedEzT0=" class="d-block" width="612px" height="408px" alt="photo3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="technologies">
+      <div class="text">
+        <h2>Technologies that we study and will study on the course</h2>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="img/html logo.png" class="card-img-top" alt="tech1">
+        <div class="card-body">
+          <p class="card-text">HTML</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="img/css logo.png" class="card-img-top" alt="tech2">
+        <div class="card-body">
+          <p class="card-text">CSS</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="img/js logo.png" class="card-img-top" alt="tech3">
+        <div class="card-body">
+          <p class="card-text">Javascript</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

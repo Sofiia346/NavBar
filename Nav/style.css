@@ -1,0 +1,45 @@
+.bg-body-tertiary{
+    background-color: rgb(209, 7, 21) !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+}
+.btn{
+    color: white !important;
+}
+.form-control{
+    color: white !important;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 228, 228);
+}
+.main p{
+    font-size: 20px;
+}
+.main .my-slide{
+    width:612px; 
+    height:408px;
+}
+.technologies{
+    height: 100vh;
+    background-color: rgb(255, 228, 228);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    position: absolute;
+    text-align: center;
+    margin-bottom: 531px;
+
+}
+.card p{
+    text-align: center;
+}
